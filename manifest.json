@@ -1,0 +1,23 @@
+{
+  "name": "ShareB&B",
+  "version": "1.0",
+  "description": "Shows a banana contact from Airbnb",
+  "background": {
+    "scripts": ["popup.js"],
+    "persistent": false
+  },
+  "page_action" :
+  {
+    "default_icon" : "icon-19.png",
+    "default_title" : "Seems that there is a Banana contact",
+    "default_popup": "index.html"
+  },
+  "permissions" : [
+    "declarativeContent"
+  ],
+  "icons" : {
+    "48" : "icon-48.png",
+    "128" : "icon-128.png"
+  },
+  "manifest_version": 2
+}
